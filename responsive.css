@@ -177,7 +177,7 @@
 
   .font-h1 {
     font-size: 15.5px;
-    letter-spacing: .25px;
+    letter-spacing: 0;
   }
   
   .font-h2 {
