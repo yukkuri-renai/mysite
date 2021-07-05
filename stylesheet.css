@@ -73,6 +73,14 @@ section {
   display: block;
 }
 
+.narrow {
+  letter-spacing: -1px;
+}
+
+.expand {
+  letter-spacing: 1.5px;
+}
+
 /* topWrapper */
 
 /* #topWrapper {
