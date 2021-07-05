@@ -1,0 +1,271 @@
+@media(max-width: 1100px) {
+  section {
+    padding-top: 22px;
+    padding-right: 20px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+  }
+
+  .font-h1 {
+    font-size: 22px;
+  }
+  
+  .font-h2 {
+    font-size: 17px;
+  }
+  
+  .font-p {
+    font-size: 15px;
+  }
+
+  .top-image {
+    width: 180px;
+    height: 180px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    box-shadow: 22px 22px 22px rgba(0, 0, 0, .3);
+  }
+
+  .top-intro {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .top-intro>.font-p {
+    -webkit-transform: translateX(80px);
+    -ms-transform: translateX(80px);
+    transform: translateX(80px);
+  }
+
+  #adSpace {
+    width: 450px;
+    margin-top: 40px;
+  }
+
+  .sns.container {
+    width: 450px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 16px rgba(0, 0, 0, .3);
+  }
+  
+  .sns.container::before {
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    border-radius: 6px;
+    top: -2.5px;
+    left: -2.5px;
+  }
+
+  .sns-detail {
+    padding-top: 8px;
+    padding-left: 11px;
+  }
+
+
+  footer {
+    padding-top: 40px;
+    padding-bottom: 24px;
+  }
+  
+  footer>p {
+    font-size: 13px;
+    letter-spacing: .5px;
+  }
+}
+
+@media(max-width: 600px) {
+  section {
+    padding-top: 18px;
+    padding-right: 30px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+  }
+
+  .font-h1 {
+    font-size: 20px;
+  }
+  
+  .font-h2 {
+    font-size: 15px;
+  }
+  
+  .font-p {
+    font-size: 12px;
+  }
+
+  .top-image {
+    width: 140px;
+    height: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .3);
+  }
+
+  .top-intro {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .top-intro>.font-p {
+    width: 260px;
+    -webkit-transform: translateX(-2px);
+    -ms-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  #adSpace {
+    width: 100%;
+    margin-top: 38px;
+    border-radius: 5px;
+  }
+
+  .temporaryad>img {
+    border-radius: 5px;
+  }
+  
+  .temporaryad::before {
+    border-radius: 5px;
+  }
+
+  .sns.container {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 16px rgba(0, 0, 0, .3);
+  }
+  
+  .sns.container::before {
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    border-radius: 6px;
+    top: -2.5px;
+    left: -2.5px;
+  }
+
+  .sns-detail {
+    padding-top: 15px;
+    padding-left: 11px;
+  }
+
+  .sns-detail>p {
+    line-height: 1.5em;
+  }
+  
+  .sns-detail>p:nth-of-type(1) {
+    font-size: 1.08em;
+    letter-spacing: 1px;
+  }
+  
+  footer>p {
+    font-size: 10px;
+    letter-spacing: .5px;
+  }
+}
+
+@media(max-width: 460px) {
+  section {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  .font-h1 {
+    font-size: 15.5px;
+    letter-spacing: .25px;
+  }
+  
+  .font-h2 {
+    font-size: 13px;
+  }
+  
+  .font-p {
+    font-size: 10.5px;
+  }
+
+  .top-image {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 18px 18px 18px rgba(0, 0, 0, .3);
+  }
+
+  .top-intro {
+    padding-top: 8px;
+    padding-bottom: 3px;
+  }
+
+  .top-intro>.font-p {
+    width: 260px;
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
+  }
+
+  #contentsWrapper {
+    padding-bottom: 0;
+  }
+
+  #adSpace {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .sns.container {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: .8px solid rgb(0, 0, 0);
+    padding: 5px;
+    box-shadow: 8px 8px 14px rgba(0, 0, 0, .3);
+  }
+  
+  .sns.container::before {
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    border-radius: 6px;
+    top: -2.5px;
+    left: -2.5px;
+  }
+
+  .sns-detail {
+    padding-top: 8px;
+    padding-left: 11px;
+  }
+
+  .sns-detail>p {
+    line-height: 1.5em;
+  }
+  
+  .sns-detail>p:nth-of-type(1) {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .sns-detail>p:nth-of-type(2) {
+    font-size: 10px;
+    -webkit-transform: translateX(8px);
+    -ms-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  footer {
+    padding-top: 5px;
+    padding-bottom: 8px;
+  }
+  
+  footer>p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  footer>p>span {
+    display: block;
+  }
+}
