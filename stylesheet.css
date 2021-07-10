@@ -142,15 +142,12 @@ section {
 .top-intro {
   padding-top: 16px;
   padding-bottom: 16px;
+  /* margin: 0 auto; */
 }
 
 .top-intro>.font-p {
-  text-align: center;
-  max-width: 450px;
-  margin: 0 auto;
-  -webkit-transform: translateX(67.5px);
-  -ms-transform: translateX(67.5px);
-  transform: translateX(67.5px);
+  /* text-align: center; */
+  /* margin: 0 auto; */
 }
 
 /* contentsWrapper */
@@ -186,7 +183,23 @@ section {
   position: relative;
 }
 
-.temporaryad::before,
+.temporaryad::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+
+.temporaryad>img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
 .sns.container::before {
   content: "";
   display: block;
@@ -201,15 +214,6 @@ section {
   -webkit-transition: opacity .2s;
   -moz-transition: opacity .2s;
   transition: opacity .2s;
-}
-
-.temporaryad::before {
-  border-radius: 6px;
-}
-
-.temporaryad>img {
-  width: 100%;
-  border-radius: 6px;
 }
 
 #snsSpace {
@@ -232,9 +236,6 @@ section {
   border-radius: 8px;
 }
 
-
-.temporaryad>img:hover::before,
-.temporaryad>img:active::before,
 .sns.container:hover::before,
 .sns.container:active::before {
   opacity: 1;

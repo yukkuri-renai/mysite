@@ -31,12 +31,6 @@
     padding-bottom: 12px;
   }
 
-  .top-intro>.font-p {
-    -webkit-transform: translateX(80px);
-    -ms-transform: translateX(80px);
-    transform: translateX(80px);
-  }
-
   #adSpace {
     width: 450px;
     margin-top: 40px;
@@ -107,13 +101,6 @@
   .top-intro {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-
-  .top-intro>.font-p {
-    width: 260px;
-    -webkit-transform: translateX(-2px);
-    -ms-transform: translateX(-2px);
-    transform: translateX(-2px);
   }
 
   #adSpace {
@@ -199,13 +186,6 @@
   .top-intro {
     padding-top: 8px;
     padding-bottom: 3px;
-  }
-
-  .top-intro>.font-p {
-    width: 260px;
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
   }
 
   #contentsWrapper {
